@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-PerlIO-utf8_strict
 Version:        0.004
-Release:        5%{?dist}
+Release:        5%{?_buildid}%{?dist}
 Summary:        Fast and correct UTF-8 I/O
 License:        GPL+ or Artistic
 Group:          Development/Libraries
