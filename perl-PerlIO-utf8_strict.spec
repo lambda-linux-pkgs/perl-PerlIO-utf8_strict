@@ -24,6 +24,9 @@ Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $versi
 %{?perl_default_filter}
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This module provides a fast and correct UTF-8 PerlIO layer. Unlike perl's
 default :utf8 layer it checks the input for correctness.
 
