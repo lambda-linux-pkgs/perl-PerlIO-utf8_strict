@@ -54,6 +54,11 @@ find $RPM_BUILD_ROOT -type f -name '*.bs' -size 0 -exec rm -f {} \;
 %{_mandir}/man3/*
 
 %changelog
+* Wed Dec 31 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.004-5
+- Adapt for AL/LL
+- Add package support URL
+- Import source package FC21/perl-PerlIO-utf8_strict-0.004-5.fc21
+
 * Sun Aug 17 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.004-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_22_Mass_Rebuild
 
